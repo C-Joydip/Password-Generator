@@ -1,12 +1,12 @@
 #!bin/bash
 
 echo "Installing Requirements" | lolcat -as 10
-#apt update -y
-#apt upgrade -y
-#apt install python
-#apt install openssl
-#apt install openssl-tool
-#pip install lolcat
+apt update -y
+apt upgrade -y
+apt install python
+apt install openssl
+apt install openssl-tool
+pip install lolcat
 
 echo "[-]This is a simple password generator.
 [-]You can generate password of any length with this tool"
